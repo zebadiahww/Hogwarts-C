@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBEEBC5A234C3E6300A6D563 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEEBC59234C3E6300A6D563 /* AppDelegate.m */; };
+		FBEEBC5D234C3E6300A6D563 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEEBC5C234C3E6300A6D563 /* SceneDelegate.m */; };
+		FBEEBC63234C3E6300A6D563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEEBC61234C3E6300A6D563 /* Main.storyboard */; };
+		FBEEBC65234C3E6500A6D563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEEBC64234C3E6500A6D563 /* Assets.xcassets */; };
+		FBEEBC68234C3E6500A6D563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEEBC66234C3E6500A6D563 /* LaunchScreen.storyboard */; };
+		FBEEBC6B234C3E6500A6D563 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEEBC6A234C3E6500A6D563 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBEEBC55234C3E6300A6D563 /* Hogwarts-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hogwarts-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEEBC58234C3E6300A6D563 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBEEBC59234C3E6300A6D563 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBEEBC5B234C3E6300A6D563 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FBEEBC5C234C3E6300A6D563 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FBEEBC62234C3E6300A6D563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBEEBC64234C3E6500A6D563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBEEBC67234C3E6500A6D563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBEEBC69234C3E6500A6D563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEEBC6A234C3E6500A6D563 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBEEBC52234C3E6300A6D563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBAE9AD4234C3F2300B8DAC9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FBEEBC61234C3E6300A6D563 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FBEEBC4C234C3E6300A6D563 = {
+			isa = PBXGroup;
+			children = (
+				FBEEBC57234C3E6300A6D563 /* Hogwarts-C */,
+				FBEEBC56234C3E6300A6D563 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBEEBC56234C3E6300A6D563 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBEEBC55234C3E6300A6D563 /* Hogwarts-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBEEBC57234C3E6300A6D563 /* Hogwarts-C */ = {
+			isa = PBXGroup;
+			children = (
+				FBEEBC71234C3EBB00A6D563 /* Supporting Files */,
+				FBAE9AD4234C3F2300B8DAC9 /* Storyboards */,
+			);
+			path = "Hogwarts-C";
+			sourceTree = "<group>";
+		};
+		FBEEBC71234C3EBB00A6D563 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBEEBC58234C3E6300A6D563 /* AppDelegate.h */,
+				FBEEBC59234C3E6300A6D563 /* AppDelegate.m */,
+				FBEEBC5B234C3E6300A6D563 /* SceneDelegate.h */,
+				FBEEBC5C234C3E6300A6D563 /* SceneDelegate.m */,
+				FBEEBC64234C3E6500A6D563 /* Assets.xcassets */,
+				FBEEBC66234C3E6500A6D563 /* LaunchScreen.storyboard */,
+				FBEEBC69234C3E6500A6D563 /* Info.plist */,
+				FBEEBC6A234C3E6500A6D563 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBEEBC54234C3E6300A6D563 /* Hogwarts-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEEBC6E234C3E6500A6D563 /* Build configuration list for PBXNativeTarget "Hogwarts-C" */;
+			buildPhases = (
+				FBEEBC51234C3E6300A6D563 /* Sources */,
+				FBEEBC52234C3E6300A6D563 /* Frameworks */,
+				FBEEBC53234C3E6300A6D563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hogwarts-C";
+			productName = "Hogwarts-C";
+			productReference = FBEEBC55234C3E6300A6D563 /* Hogwarts-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBEEBC4D234C3E6300A6D563 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Karl Pfister";
+				TargetAttributes = {
+					FBEEBC54234C3E6300A6D563 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = FBEEBC50234C3E6300A6D563 /* Build configuration list for PBXProject "Hogwarts-C" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBEEBC4C234C3E6300A6D563;
+			productRefGroup = FBEEBC56234C3E6300A6D563 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBEEBC54234C3E6300A6D563 /* Hogwarts-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBEEBC53234C3E6300A6D563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEEBC68234C3E6500A6D563 /* LaunchScreen.storyboard in Resources */,
+				FBEEBC65234C3E6500A6D563 /* Assets.xcassets in Resources */,
+				FBEEBC63234C3E6300A6D563 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBEEBC51234C3E6300A6D563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEEBC5A234C3E6300A6D563 /* AppDelegate.m in Sources */,
+				FBEEBC6B234C3E6500A6D563 /* main.m in Sources */,
+				FBEEBC5D234C3E6300A6D563 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBEEBC61234C3E6300A6D563 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEEBC62234C3E6300A6D563 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBEEBC66234C3E6500A6D563 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEEBC67234C3E6500A6D563 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBEEBC6C234C3E6500A6D563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBEEBC6D234C3E6500A6D563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBEEBC6F234C3E6500A6D563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J7B9732LY;
+				INFOPLIST_FILE = "$(SRCROOT)/Hogwarts-C/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DevMountain.Hogwarts-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBEEBC70234C3E6500A6D563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J7B9732LY;
+				INFOPLIST_FILE = "$(SRCROOT)/Hogwarts-C/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DevMountain.Hogwarts-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBEEBC50234C3E6300A6D563 /* Build configuration list for PBXProject "Hogwarts-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEEBC6C234C3E6500A6D563 /* Debug */,
+				FBEEBC6D234C3E6500A6D563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEEBC6E234C3E6500A6D563 /* Build configuration list for PBXNativeTarget "Hogwarts-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEEBC6F234C3E6500A6D563 /* Debug */,
+				FBEEBC70234C3E6500A6D563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBEEBC4D234C3E6300A6D563 /* Project object */;
+}
