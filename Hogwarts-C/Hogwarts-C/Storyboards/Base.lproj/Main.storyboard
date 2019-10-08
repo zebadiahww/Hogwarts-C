@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GgY-R3-yH2">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15400"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Character View Controller-->
         <scene sceneID="pHd-ru-3B5">
             <objects>
-                <tableViewController id="GgY-R3-yH2" sceneMemberID="viewController">
+                <tableViewController id="GgY-R3-yH2" customClass="ZWWCharacterViewController" customModule="Hogwarts_C" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="EJi-Az-04z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="uch-Qc-Gk5">
-                                <rect key="frame" x="0.0" y="28" width="414" height="200.5"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="characterCell" id="uch-Qc-Gk5" customClass="ZWWCharacterTableViewCell" customModule="Hogwarts_C" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="72.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uch-Qc-Gk5" id="Mtd-Mv-g4L">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="200.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="72.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8vV-CX-mm1">
-                                            <rect key="frame" x="24" y="15" width="366" height="49.5"/>
+                                            <rect key="frame" x="24" y="15" width="366" height="49"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ya7-jl-5DX">
-                                                    <rect key="frame" x="0.0" y="0.0" width="366" height="21"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="366" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3t-7q-Ubp">
-                                                    <rect key="frame" x="0.0" y="29" width="366" height="20.5"/>
+                                                    <rect key="frame" x="0.0" y="28.5" width="366" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -40,26 +40,25 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Xr9-3O-8hq">
-                                            <rect key="frame" x="4" y="68.5" width="406" height="128"/>
+                                            <rect key="frame" x="4" y="68" width="0.0" height="0.5"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-5k-tre">
-                                                    <rect key="frame" x="0.0" y="0.0" width="362" height="128"/>
+                                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-5k-tre">
+                                                    <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="44" id="ZAO-o7-eST"/>
+                                                        <constraint firstAttribute="width" constant="44" id="wE2-4I-abz"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mqe-f6-98w">
-                                                    <rect key="frame" x="362" y="0.0" width="362" height="128"/>
+                                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mqe-f6-98w">
+                                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
                                                 </imageView>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zqp-N9-H1b">
-                                                    <rect key="frame" x="44" y="0.0" width="362" height="128"/>
+                                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Death eater" translatesAutoresizingMaskIntoConstraints="NO" id="Zqp-N9-H1b">
+                                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
                                                 </imageView>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="height" secondItem="RxZ-5k-tre" secondAttribute="height" constant="44" id="Bod-as-jxj"/>
-                                                <constraint firstAttribute="width" secondItem="RxZ-5k-tre" secondAttribute="width" constant="44" id="odf-qW-FPL"/>
-                                            </constraints>
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="Xr9-3O-8hq" secondAttribute="trailing" constant="4" id="2Lb-kl-ZBc"/>
                                         <constraint firstItem="8vV-CX-mm1" firstAttribute="leading" secondItem="Mtd-Mv-g4L" secondAttribute="leadingMargin" constant="4" id="6zM-6A-wlc"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="8vV-CX-mm1" secondAttribute="trailing" constant="4" id="7KI-2G-dLA"/>
                                         <constraint firstItem="Xr9-3O-8hq" firstAttribute="top" secondItem="8vV-CX-mm1" secondAttribute="bottom" constant="4" id="9Wg-uT-sdO"/>
@@ -68,6 +67,13 @@
                                         <constraint firstItem="8vV-CX-mm1" firstAttribute="top" secondItem="Mtd-Mv-g4L" secondAttribute="topMargin" constant="4" id="s2P-jd-MBM"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bloodStatusImageView" destination="mqe-f6-98w" id="MpN-y4-omD"/>
+                                    <outlet property="characterNameLabel" destination="ya7-jl-5DX" id="LVF-Nu-0f0"/>
+                                    <outlet property="characterRoleLabel" destination="a3t-7q-Ubp" id="yR2-W1-Mbu"/>
+                                    <outlet property="deathEaterImageView" destination="Zqp-N9-H1b" id="3Zg-en-S7f"/>
+                                    <outlet property="houseImageView" destination="RxZ-5k-tre" id="79E-7P-Kr4"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -81,4 +87,7 @@
             <point key="canvasLocation" x="82.608695652173921" y="179.46428571428569"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Death eater" width="136" height="386"/>
+    </resources>
 </document>

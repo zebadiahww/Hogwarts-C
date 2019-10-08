@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		85577FB3234CF6F7000F0110 /* ZWWCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 85577FB2234CF6F7000F0110 /* ZWWCharacter.m */; };
+		85577FB7234D07D5000F0110 /* ZWWCharacterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85577FB6234D07D5000F0110 /* ZWWCharacterController.m */; };
+		85577FBB234D2DB3000F0110 /* ZWWCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85577FBA234D2DB3000F0110 /* ZWWCharacterViewController.swift */; };
+		85577FBD234D2E6C000F0110 /* ZWWCharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85577FBC234D2E6C000F0110 /* ZWWCharacterTableViewCell.swift */; };
 		FBEEBC5A234C3E6300A6D563 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEEBC59234C3E6300A6D563 /* AppDelegate.m */; };
 		FBEEBC5D234C3E6300A6D563 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEEBC5C234C3E6300A6D563 /* SceneDelegate.m */; };
 		FBEEBC63234C3E6300A6D563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEEBC61234C3E6300A6D563 /* Main.storyboard */; };
@@ -19,6 +22,11 @@
 /* Begin PBXFileReference section */
 		85577FB1234CF6F7000F0110 /* ZWWCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWCharacter.h; sourceTree = "<group>"; };
 		85577FB2234CF6F7000F0110 /* ZWWCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWCharacter.m; sourceTree = "<group>"; };
+		85577FB5234D07D5000F0110 /* ZWWCharacterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWCharacterController.h; sourceTree = "<group>"; };
+		85577FB6234D07D5000F0110 /* ZWWCharacterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWCharacterController.m; sourceTree = "<group>"; };
+		85577FB9234D2DB2000F0110 /* Hogwarts-C-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hogwarts-C-Bridging-Header.h"; sourceTree = "<group>"; };
+		85577FBA234D2DB3000F0110 /* ZWWCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWWCharacterViewController.swift; sourceTree = "<group>"; };
+		85577FBC234D2E6C000F0110 /* ZWWCharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWWCharacterTableViewCell.swift; sourceTree = "<group>"; };
 		FBEEBC55234C3E6300A6D563 /* Hogwarts-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hogwarts-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEEBC58234C3E6300A6D563 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FBEEBC59234C3E6300A6D563 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,25 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		85577FB4234D07C1000F0110 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85577FB5234D07D5000F0110 /* ZWWCharacterController.h */,
+				85577FB6234D07D5000F0110 /* ZWWCharacterController.m */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		85577FB8234D07D8000F0110 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85577FBA234D2DB3000F0110 /* ZWWCharacterViewController.swift */,
+				85577FB9234D2DB2000F0110 /* Hogwarts-C-Bridging-Header.h */,
+				85577FBC234D2E6C000F0110 /* ZWWCharacterTableViewCell.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
 		FBAE9AD4234C3F2300B8DAC9 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +105,8 @@
 		FBEEBC57234C3E6300A6D563 /* Hogwarts-C */ = {
 			isa = PBXGroup;
 			children = (
+				85577FB8234D07D8000F0110 /* View Controller */,
+				85577FB4234D07C1000F0110 /* Model Controller */,
 				85577FB0234CF6A1000F0110 /* Model */,
 				FBEEBC71234C3EBB00A6D563 /* Supporting Files */,
 				FBAE9AD4234C3F2300B8DAC9 /* Storyboards */,
@@ -132,6 +161,7 @@
 				TargetAttributes = {
 					FBEEBC54234C3E6300A6D563 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -172,8 +202,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBEEBC5A234C3E6300A6D563 /* AppDelegate.m in Sources */,
+				85577FB7234D07D5000F0110 /* ZWWCharacterController.m in Sources */,
 				FBEEBC6B234C3E6500A6D563 /* main.m in Sources */,
 				85577FB3234CF6F7000F0110 /* ZWWCharacter.m in Sources */,
+				85577FBD234D2E6C000F0110 /* ZWWCharacterTableViewCell.swift in Sources */,
+				85577FBB234D2DB3000F0110 /* ZWWCharacterViewController.swift in Sources */,
 				FBEEBC5D234C3E6300A6D563 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4J7B9732LY;
 				INFOPLIST_FILE = "$(SRCROOT)/Hogwarts-C/Supporting Files/Info.plist";
@@ -323,6 +357,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DevMountain.Hogwarts-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hogwarts-C/View Controller/Hogwarts-C-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -331,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4J7B9732LY;
 				INFOPLIST_FILE = "$(SRCROOT)/Hogwarts-C/Supporting Files/Info.plist";
@@ -340,6 +378,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DevMountain.Hogwarts-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hogwarts-C/View Controller/Hogwarts-C-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
